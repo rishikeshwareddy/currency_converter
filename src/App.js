@@ -7,7 +7,7 @@ const BASE_URL="https://v6.exchangerate-api.com/v6/87f578b821be830efe669a71/late
 
 function App() {
  const [currencyOptions,setCurrencyOptions]=useState([])
- const [fromCurrency,setFromCurrency]=useState("USA")
+ const [fromCurrency,setFromCurrency]=useState("USD")
  const [toCurrency,setToCurrency]=useState("INR")
  const [exchangeRate,setExchangeRate]=useState(1)
  const [amount,setAmount]=useState(1)
