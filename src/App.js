@@ -54,14 +54,14 @@ let toAmount,fromAmount
 
   return (
     <div className="converter">
-      <h1>convert</h1>
+      <h1>currency converter</h1>
       <div>
       <CurrencyRow currencyOptions={currencyOptions} selectCurrency={fromCurrency}
         onChangeCurrency={e=>setFromCurrency(e.target.value)}
         amount={fromAmount}
         onChangeAmount={handleFromAmountChange}
       />
-      <div className='equals'>=</div>
+      <div className='equals'>&#8645;</div>
       <CurrencyRow currencyOptions={currencyOptions} selectCurrency={toCurrency}
         onChangeCurrency={e=>setToCurrency(e.target.value)}
         amount={toAmount}
