@@ -5,7 +5,7 @@ body{
     align-items: center;
     min-height: 100vh;
     text-align: center;
-    background: #f5ba13;
+    background-image: linear-gradient(to right,red,yellow);
 }
 .converter{
     width: 400px;
@@ -25,6 +25,8 @@ h1{
 }
 .input{
     border: 0px;
+    background-color: blue;
+    color: white;
     border-top: 2px solid #9b9595;
     border-left: 2px solid #9b9595;
     border-bottom: 2px solid #9b9595;
@@ -35,6 +37,8 @@ h1{
 }
 .selectthis{
     border: 0px;
+    background-color: blue;
+    color: white;
     border: 2px solid #9b9595;
     width: 60px;
     height: 36px;
